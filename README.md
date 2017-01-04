@@ -4,9 +4,9 @@ A seed project for custom Four51 Solutions built on AngularJS
 
 ## Build Status
 ### development 
-https://travis-ci.org/ordercloud-api/xangular-seed.svg?branch=development
+[![Build Status](https://travis-ci.org/ordercloud-api/xangular-seed.svg?branch=development)](https://travis-ci.org/ordercloud-api/xangular-seed)
 ### master
-https://travis-ci.org/ordercloud-api/xangular-seed.svg?branch=master
+[![Build Status](https://travis-ci.org/ordercloud-api/xangular-seed.svg?branch=master)](https://travis-ci.org/ordercloud-api/xangular-seed)
 
 ## Get started
 
