@@ -2,14 +2,10 @@ angular.module('orderCloud')
     .config(AppConfig)
 ;
 
-function AppConfig($urlRouterProvider, $urlMatcherFactoryProvider, $locationProvider, defaultstate, $qProvider, $provide, $httpProvider) {
+function AppConfig($urlMatcherFactoryProvider, $locationProvider, $qProvider, $provide, $httpProvider) {
     //Routing
     $locationProvider.html5Mode(true);
     $urlMatcherFactoryProvider.strictMode(false);
-    $urlRouterProvider.otherwise(function ($injector) {
-        var $state = $injector.get('$state');
-        $state.go(defaultstate); //Set the default state name in app.constants.json
-    });
 
     //Error Handling
     $provide.decorator('$exceptionHandler', handler);
