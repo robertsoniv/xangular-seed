@@ -2,6 +2,12 @@
 A seed project for custom Four51 Solutions built on AngularJS
 ***
 
+## Build Status
+### development 
+https://travis-ci.org/ordercloud-api/xangular-seed.svg?branch=development
+### master
+https://travis-ci.org/ordercloud-api/xangular-seed.svg?branch=master
+
 ## Get started
 
 Node.js is required for the following node package manager (npm) tasks. If you don't have node.js installed, you can download it [here](http://nodejs.org/).
